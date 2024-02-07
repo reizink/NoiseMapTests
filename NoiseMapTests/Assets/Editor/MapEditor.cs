@@ -9,7 +9,7 @@ public class MapEditor : Editor
 {
     public override void OnInspectorGUI()
     {
-        base.OnInspectorGUI(); //sometimes needed, sometimes not
+        //base.OnInspectorGUI(); //sometimes needed, sometimes not
         MapGenerator2 map = (MapGenerator2)target;
 
         if (DrawDefaultInspector())
